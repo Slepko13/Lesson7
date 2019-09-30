@@ -1,0 +1,158 @@
+.container {
+    /* Style for "about" */
+    width: 940px;
+    height: 695px;
+    margin: 0 auto;
+}
+
+h3 {
+    /* Style for "who we are" */
+
+    color: #898f99;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    /* Text style for "who we are" */
+    letter-spacing: 4.8px;
+}
+
+h1 {
+    /* Style for "Hello & Na" */
+
+    color: #0ec8cb;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "H, ello &" */
+    letter-spacing: 4.8px;
+}
+
+h2 {
+    /* Style for "We do not" */
+
+    color: #999999;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 600px;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title {
+    /* Style for "Graphics" */
+
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.description {
+    /* Style for "Fresh, liv" */
+
+    color: #777777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 10px;
+}
+
+.card-list {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.card {
+    height: 420px;
+    width: 25%;
+    margin-top: 50px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+.anchor {
+    background: url("../Foto/Anchor.png") center center no-repeat;
+    height: 20%;
+    width: 40%;
+
+}
+
+.diamond {
+    background: url("../Foto/Diamond.png") center center no-repeat;
+    height: 20%;
+    width: 40%;
+
+
+}
+
+.eyeglasses {
+    background: url("../Foto/Eyeglasses.png") center center no-repeat;
+    height: 20%;
+    width: 40%;
+
+
+}
+
+.monitor {
+    background: url("../Foto/Monitor.png") center center no-repeat;
+    height: 20%;
+    width: 40%;
+
+
+}
+
+
+
+.card:hover {
+    background: #0ec8cb;
+}
+
+.card:hover .description {
+    color: white;
+}
+
+.card:hover .title {
+    color: white;
+}
+
+.card:hover .anchor {
+    background: url("../Foto/Anchor_w.png") center center no-repeat;
+}
+
+.card:hover .diamond {
+    background: url("../Foto/Diamond_w.png") center center no-repeat;
+}
+
+.card:hover .eyeglasses {
+    background: url("../Foto/Eyeglasses_w.png") center center no-repeat;
+}
+
+.card:hover .monitor {
+    background: url("../Foto/Monitor_w.png") center center no-repeat;
+}
